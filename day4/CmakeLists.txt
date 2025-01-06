@@ -1,0 +1,22 @@
+cmake_minimum_required( VERSION 3.14  )
+
+
+set(name test )
+set(CMAKE_ARCHITECTURE_ID "x64")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+project(${name} VERSION 0.0)
+
+include_directories(${CMAKE_SOURCE_DIR}/src/include)
+
+
+aux_source_directory(src SRC_LIST)
+add_executable(${name} ${SRC_LIST})
+#add_library(TEST SHARED ${SRC_LIST} )
+target_link_libraries(${name} PUBLIC "freeglutd.lib")
+target_link_libraries(${name} PUBLIC "soil2.lib")
+target_link_libraries(${name} PUBLIC "glfw3.lib")
+target_link_libraries(${name} PUBLIC "OpenGL32.lib")
+target_link_libraries(${name} PUBLIC "assimp-vc143-mt.lib")
+
+
+
