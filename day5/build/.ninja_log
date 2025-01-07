@@ -1,0 +1,12 @@
+# ninja log v6
+18	27	7579513714612582	clean	fa92303e789e5432
+11	985	7577672199336967	CMakeFiles/test.dir/src/test.cpp.obj	26d982794c18cf7a
+1244	1452	7579513727695485	E:/code/VC/projectC++/game_Version 0.0/bin/test.exe	3882a1d671f880b0
+16	1244	7579513715405920	CMakeFiles/test.dir/src/game.cpp.obj	357806fdfe035337
+20	905	7579513715426032	CMakeFiles/test.dir/src/system.cpp.obj	a4ea628d7b5448d2
+23	904	7579513715480106	CMakeFiles/test.dir/src/terrain.cpp.obj	eb78b2cc145adea2
+18	26	7579514267508772	clean	fa92303e789e5432
+17	447	7579514268286879	CMakeFiles/test.dir/src/terrain.cpp.obj	eb78b2cc145adea2
+15	477	7579514268264721	CMakeFiles/test.dir/src/system.cpp.obj	a4ea628d7b5448d2
+11	966	7579514268234020	CMakeFiles/test.dir/src/game.cpp.obj	357806fdfe035337
+966	1169	7579514277770258	E:/code/VC/projectC++/game_Version 0.0/bin/test.exe	3882a1d671f880b0
