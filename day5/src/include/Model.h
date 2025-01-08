@@ -32,7 +32,7 @@ public:
 
 	/*  函数  */
 	// 构造汉化,需要一个3D模型的文件路径
-	Model(string const &path, bool gamma = false) : gammaCorrection(gamma)
+	Model(string const &path) 
 	{
 		loadModel(path);
 	}
